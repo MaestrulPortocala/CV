@@ -1,0 +1,61 @@
+//Teste
+// 1. Declaratii cu tip explicit
+int x = 10;
+float pi = 3.14;
+bool activ = true;
+
+// 2. Aritmetica si atribuire simpla
+y = x * 2 + 5;
+print(y);
+
+// 3. If-else
+if (y > 20) {
+    print(1);
+} else {
+    print(0);
+}
+
+// 4. Operatori de comparare si logici
+if (x >= 10 && activ) {
+    print(x);
+}
+
+// 5. Bucla while — numara de la 0 la 4
+i = 0;
+while (i < 5) {
+    print(i);
+    i = i + 1;
+}
+
+// 6. While cu if-else nested — numere pare/impare
+j = 0;
+while (j < 6) {
+    rest = j % 2;
+    if (rest == 0) {
+        print(j);
+    }
+    j = j + 1;
+}
+
+// 7. Expresii cu paranteze si precedenta
+a = (2 + 3) * 4;
+b = 2 + 3 * 4;
+print(a);
+print(b);
+
+// 8. Operator NOT
+flag = false;
+if (!flag) {
+    print(99);
+}
+
+// 9. Valori float
+print(pi);
+
+// 10. Valori bool
+if (42>39) {
+   print(true);
+}
+else {
+    print(false);
+}

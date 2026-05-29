@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - TechSolutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo_svg.svg" alt="TechSolutions Logo">
+                <h1>TechSolutions</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Acasă</a></li>
+                    <li><a href="servicii.html">Servicii</a></li>
+                    <li><a href="preturi.html">Prețuri</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contactează-ne</h1>
+                <p>Suntem aici să te ajutăm! Trimite-ne un mesaj și îți vom răspunde în cel mai scurt timp.</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form-wrapper">
+                        <h2>Trimite-ne un mesaj</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nume complet *</label>
+                                <input type="text" id="name" name="name" required placeholder="Ion Popescu">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required placeholder="ion.popescu@email.ro">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Telefon</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+40 765 123 456">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Companie</label>
+                                <input type="text" id="company" name="company" placeholder="Numele companiei tale">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="service">Serviciu de interes *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Selectează un serviciu</option>
+                                    <option value="web">Dezvoltare Web</option>
+                                    <option value="mobile">Aplicații Mobile</option>
+                                    <option value="consulting">Consultanță IT</option>
+                                    <option value="support">Mentenanță & Suport</option>
+                                    <option value="other">Altele</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="budget">Buget estimat</label>
+                                <select id="budget" name="budget">
+                                    <option value="">Selectează bugetul</option>
+                                    <option value="under-1000">Sub 1,000 EUR</option>
+                                    <option value="1000-3000">1,000 - 3,000 EUR</option>
+                                    <option value="3000-5000">3,000 - 5,000 EUR</option>
+                                    <option value="5000-10000">5,000 - 10,000 EUR</option>
+                                    <option value="over-10000">Peste 10,000 EUR</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Mesaj *</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Descrie-ne proiectul tău sau întrebările pe care le ai..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="terms" required>
+                                    Sunt de acord cu <a href="#">termenii și condițiile</a> și <a href="#">politica de confidențialitate</a> *
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="newsletter">
+                                    Doresc să primesc newsletter cu noutăți și oferte speciale
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn-primary">Trimite Mesajul</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info-wrapper">
+                        <div class="contact-info-card">
+                            <h2>Informații Contact</h2>
+                            
+                            <div class="info-item">
+                                <h3>Adresă</h3>
+                                <p>Strada Gheorghe Marinescu, nr. 38<br>
+                                540139 Târgu Mureș<br>
+                                Județul Mureș, România</p>
+                            </div>
+
+                            <div class="info-item">
+                                <h3>Email</h3>
+                                <p><a href="mailto:contact@techsolutions.ro">contact@techsolutions.ro</a><br>
+                                <a href="mailto:support@techsolutions.ro">support@techsolutions.ro</a></p>
+                            </div>
+
+                            <div class="info-item">
+                                <h3>Telefon</h3>
+                                <p><a href="tel:+40765123456">+40 765 123 456</a><br>
+                                <a href="tel:+40265234567">+40 265 234 567</a> (Fix)</p>
+                            </div>
+
+                            <div class="info-item">
+                                <h3>Program</h3>
+                                <p>Luni - Vineri: 09:00 - 18:00<br>
+                                Sâmbătă: 10:00 - 14:00<br>
+                                Duminică: Închis</p>
+                            </div>
+
+                            <div class="info-item">
+                                <h3>Social Media</h3>
+                                <div class="social-links">
+                                    <a href="#" class="social-link">Facebook</a>
+                                    <a href="#" class="social-link">LinkedIn</a>
+                                    <a href="#" class="social-link">Instagram</a>
+                                    <a href="#" class="social-link">Twitter</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="office-image">
+                            <img src="birou.jpg" alt="Biroul TechSolutions">
+                            <p class="image-caption">Biroul nostru din Târgu Mureș</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <h2>Locația Noastră</h2>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43647.89441776108!2d24.52836!3d46.54245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474bb6ec91a78269%3A0x3baffdf94a4e9b16!2sT%C3%A2rgu%20Mure%C8%99!5e0!3m2!1sro!2sro!4v1234567890123!5m2!1sro!2sro" 
+                        width="100%" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <p class="map-directions">
+                    <strong>Cum ajungi la noi:</strong> Suntem situați în centrul orașului Târgu Mureș, la 5 minute de mers pe jos de Piața Trandafirilor. Parcare disponibilă în zonă.
+                </p>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2>Întrebări Frecvente</h2>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>Cât durează realizarea unui proiect?</summary>
+                        <p>Durata depinde de complexitatea proiectului. Un site simplu poate fi finalizat în 1-2 săptămâni, în timp ce o aplicație complexă poate dura 2-4 luni. Îți vom oferi un timeline detaliat după discuția inițială.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Oferiți garanție pentru lucrările realizate?</summary>
+                        <p>Da, toate proiectele noastre vin cu o garanție de 6 luni pentru bug-uri și probleme tehnice. De asemenea, oferim pachete de mentenanță pentru suport continuu.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Pot solicita modificări după finalizarea proiectului?</summary>
+                        <p>Absolut! În timpul dezvoltării includem 2-3 runde de revizuiri. După finalizare, poți solicita modificări contra cost sau prin pachetele de mentenanță.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Care sunt metodele de plată acceptate?</summary>
+                        <p>Acceptăm plăți prin transfer bancar, card, și pentru proiecte mari oferim posibilitatea plății în rate. De obicei solicităm un avans de 30-50% la începerea lucrului.</p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Lucrați și cu clienți din afara României?</summary>
+                        <p>Da, lucrăm frecvent cu clienți internaționali. Comunicăm în română, engleză și maghiară, iar toate procesele noastre sunt adaptate pentru colaborare remote.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechSolutions</h3>
+                    <p>Soluții IT profesionale pentru afacerea ta</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Link-uri Rapide</h3>
+                    <ul>
+                        <li><a href="home.html">Acasă</a></li>
+                        <li><a href="servicii.html">Servicii</a></li>
+                        <li><a href="preturi.html">Prețuri</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: contact@techsolutions.ro</p>
+                    <p>Telefon: +40 765 123 456</p>
+                    <p>Târgu Mureș, România</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechSolutions. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

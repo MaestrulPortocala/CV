@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prețuri - AnaPower</title>
+    <link rel="icon" type="image/x-icon" href="img/Logo.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo-wrapper">
+                <img src="Logo (2).png" alt="AnaPower Logo" class="logo-img">
+                <span class="logo-text">AnaPower</span>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="Home.html">Acasă</a></li>
+                    <li class="nav-item"><a href="Products.html">Produse</a></li>
+                    <li class="nav-item active"><a href="Prices.html">Prețuri</a></li>
+                    <li class="nav-item"><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="page-header">
+            <div class="container">
+                <h1>Prețuri Pentru Cercetare</h1>
+                <p class="page-subtitle">Tarife transparente pentru instituții de cercetare</p>
+            </div>
+        </section>
+
+        <section class="pricing-section">
+            <div class="container">
+                <div class="pricing-notice">
+                    <p><strong>Notă:</strong> Prețurile sunt orientative și pot varia în funcție de cantitate și specificații. Disponibilitate sub rezerva stocului. Toate prețurile sunt fără TVA.</p>
+                </div>
+
+                <div id="pricing-table-container">
+                   
+                </div>
+
+                <div class="discount-section">
+                    <h2>Pachete de Cercetare</h2>
+                    <div id="research-packages">
+                        
+                    </div>
+                </div>
+
+                <div class="bulk-calculator">
+                    <h2>Calculator Comenzi în Cantitate Mare</h2>
+                    <div class="calculator-box">
+                        <div class="calc-input-group">
+                            <label for="bulk-quantity">Cantitate (unitați):</label>
+                            <input type="number" id="bulk-quantity" min="1" value="1">
+                        </div>
+                        <div class="calc-input-group">
+                            <label for="bulk-price">Preț unitar (EUR):</label>
+                            <input type="number" id="bulk-price" min="1" value="50" step="0.01">
+                        </div>
+                        <button id="calc-button" class="calc-btn">Calculează</button>
+                        <div id="calc-result" class="calc-result"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="payment-section">
+            <div class="container">
+                <h2>Informații Plată și Livrare</h2>
+                <div class="payment-grid">
+                    <article class="payment-info">
+                        <h3>Metode de Plată</h3>
+                        <ul class="payment-list">
+                            <li>Transfer bancar (IBAN)</li>
+                            <li>Plată cu cardul (securizată)</li>
+                            <li>Factură pentru instituții</li>
+                            <li>Ordin de plată (PO)</li>
+                        </ul>
+                    </article>
+                    <article class="delivery-info">
+                        <h3>Opțiuni de Livrare</h3>
+                        <ol class="delivery-list">
+                            <li>Standard - 3-5 zile lucrătoare</li>
+                            <li>Express - 1-2 zile lucrătoare</li>
+                            <li>Overnight - Livrare în 24h</li>
+                            <li>Refrigerată - Pentru substanțe sensibile</li>
+                        </ol>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>AnaPower Research Supplies</h3>
+                    <address>
+                        România, Județul Mureș<br>
+                        Dumbrăvioara, Strada Gării nr. 200<br>
+                        547310
+                    </address>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p>
+                        <a href="mailto:contact@anapower.ro" class="contact-link">
+                             Email: contact@anapower.ro
+                        </a>
+                    </p>
+                    <p>
+                        <a href="tel:+40712345678" class="contact-link">
+                             Telefon: +40 712 345 678
+                        </a>
+                    </p>
+                </div>
+                <div class="footer-legal">
+                    <p class="legal-text">
+                        © 2025 AnaPower. Toate drepturile rezervate.<br>
+                        Produse exclusiv pentru cercetare științifică.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
