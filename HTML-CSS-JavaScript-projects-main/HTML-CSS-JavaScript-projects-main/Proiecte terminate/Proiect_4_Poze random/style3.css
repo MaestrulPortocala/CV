@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: crimson;
+}
+.image-compartiment{
+    text-align: center;
+}
+.image-compartiment img{
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: lightgrey;
+    width: 300px;
+    height:300px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: darkmagenta;
+    margin: 0;
+    color:white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    border:none;
+    cursor:pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}

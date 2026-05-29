@@ -1,0 +1,1 @@
+Acesta este un folder care contine niste proiecte mai mici ce le-am facut la inceput cand invatam programare.
